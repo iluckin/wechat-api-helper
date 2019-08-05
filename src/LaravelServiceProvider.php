@@ -28,7 +28,7 @@ class LaravelServiceProvider extends ServiceProvider
             __DIR__.'/../config/wechat-helper.php', 'wechat-helper'
         );
 
-        Code::mergeCodeMap(Config::get('wechat-helper', []));
+        // Code::mergeCodeMap(Config::get('wechat-helper', []));
     }
     /**
      *

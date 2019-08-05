@@ -22,7 +22,7 @@ class Code
      */
     public static function translate(string $code = '0')
     {
-        return self::codeMap()[$code] ?: '未知错误';
+        return self::codeMap()[$code] ?? '未知错误';
     }
 
     /**
