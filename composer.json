@@ -1,5 +1,6 @@
 {
     "name": "iluckin/wechat-api-helper",
+    "license": ['MIT'],
     "authors": [
         {
             "name": "enhe",
