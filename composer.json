@@ -1,0 +1,38 @@
+{
+    "name": "iluckin/wechat-api-helper",
+    "authors": [
+        {
+            "name": "enhe",
+            "email": "enhe@iluckin.cn"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "illuminate/http": "^5.6",
+        "illuminate/support": "^5.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8.35 || ^5.4.3 || ^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "LuckIn\\WeChat\\Helper\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ]
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LuckIn\\WeChat\\Helper\\LaravelServiceProvider"
+            ]
+        }
+    }
+}
